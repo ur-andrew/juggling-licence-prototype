@@ -9,6 +9,7 @@ var jugglingBalls = request.session.data['juggling-balls']
 
 if (jugglingBalls == "3 or more"){
   response.redirect('/juggling-trick')
+}
   if (jugglingBalls == "1 or 2"){
     response.redirect('/juggling-trick')
 } else {
